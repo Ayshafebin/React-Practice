@@ -1,4 +1,6 @@
 import './App.css';
+import Fetch from './Component/Fetch';
+// import UseEffect from './UseEffect/UseEffect';
 // import Counter from './Counter/Counter';
 // import FetchAPI from './Fetch/FetchAPI';
 // import UseReducer from './Reducer/UseReducer';
@@ -34,6 +36,10 @@ function App() {
       {/* <FetchAPI/> */}
 
       {/* <UseReducer/> */}
+
+      {/* <UseEffect/> */}
+
+      <Fetch/>
       
     </div>
   );
