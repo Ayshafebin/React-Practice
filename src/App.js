@@ -1,5 +1,6 @@
 import './App.css';
 import Fetch from './Component/Fetch';
+import Input from './Component/Input';
 // import UseEffect from './UseEffect/UseEffect';
 // import Counter from './Counter/Counter';
 // import FetchAPI from './Fetch/FetchAPI';
@@ -39,7 +40,9 @@ function App() {
 
       {/* <UseEffect/> */}
 
-      <Fetch/>
+      {/* <Fetch/> */}
+
+      <Input/>
       
     </div>
   );
