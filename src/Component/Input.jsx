@@ -1,17 +1,18 @@
 import React, { useState } from 'react'
 
 const Input = () => {
-    const [value,setValue] = useState('')
 
-    const display = (e) => {
-        setValue(e.target.value)
-        console.log(value);
-    }
+  const [store,setStore] = useState('');
+
+  const handlestore = (e) => {
+    setStore(e.target.value);
+    console.log(store);
+  }
+
+
   return (
     <div>
-        <input onChange={display}
-
-        />
+      <input onChange={handlestore} />
     </div>
   )
 }
