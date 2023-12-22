@@ -1,4 +1,5 @@
 import './App.css';
+import Counter11 from './Component/Counter11';
 import Fetch from './Component/Fetch';
 import Input from './Component/Input';
 // import UseEffect from './UseEffect/UseEffect';
@@ -42,7 +43,9 @@ function App() {
 
       {/* <Fetch/> */}
 
-      <Input/>
+      {/* <Input/> */}
+
+      <Counter11/>
       
     </div>
   );
