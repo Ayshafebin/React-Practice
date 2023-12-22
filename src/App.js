@@ -1,4 +1,5 @@
 import './App.css';
+import Props from './Component/Props';
 // import Context11, { MyContext } from './Component/Context11';
 // import Counter11 from './Component/Counter11';
 // import Fetch from './Component/Fetch';
@@ -55,7 +56,7 @@ function App() {
         <Context11/>
       </MyContext.Provider> */}
 
-      
+      {/* <Props value={'Props value'}/> */}
       
     </div>
   );

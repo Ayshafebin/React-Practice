@@ -1,24 +1,9 @@
-// import React from 'react'
-
-// const Props = (props) => {
-//   return (
-//     <div>{props.vs}</div>
-//   )
-// }
-
-// export default Props
-
-
-
-
-
-
-
 import React from 'react'
 
-const Props = (props) => {
+const Props = (prop) => {
+
   return (
-    <div>{props.value}</div>
+    <div>{prop.value}</div>
   )
 }
 
