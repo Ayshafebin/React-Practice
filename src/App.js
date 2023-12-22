@@ -1,7 +1,7 @@
 import './App.css';
 import Props from './Component/Props';
 // import Context11, { MyContext } from './Component/Context11';
-// import Counter11 from './Component/Counter11';
+import Counter11 from './Component/Counter11';
 // import Fetch from './Component/Fetch';
 // import Input from './Component/Input';
 // import Reducer11 from './Component/Reducer11';
@@ -48,7 +48,7 @@ function App() {
 
       {/* <Input/> */}
 
-      {/* <Counter11/> */}
+      <Counter11/>
 
       {/* <Reducer11/> */}
 

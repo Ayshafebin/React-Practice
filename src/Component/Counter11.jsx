@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Counter11 = () => {
 
@@ -21,6 +21,10 @@ const Counter11 = () => {
     const Decrement = () => {
         setCount((prev) => prev - 12)
     }
+
+    useEffect(() => {
+        console.log('side effect');
+    },[])
 
 
   return (
