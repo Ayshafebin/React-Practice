@@ -14,6 +14,14 @@ const Counter11 = () => {
         }
     }
 
+    // const Increment = () => {
+    //     setCount((prev) => prev + 12);
+    // }
+
+    // const Decrement = () => {
+    //     setCount((prev) => prev - 12)
+    // }
+
     
 
     useEffect(() => {
