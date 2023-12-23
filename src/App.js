@@ -1,6 +1,8 @@
-import { Route, Routes } from 'react-router-dom';
+// import { Route, Routes } from 'react-router-dom';
+import { Link, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Router11 from './Component/Router11';
+import UseParams from './Component/UseParams';
+// import Router11 from './Component/Router11';
 // import Props from './Component/Props';
 // import Context11, { MyContext } from './Component/Context11';
 // import Counter11 from './Component/Counter11';
@@ -60,9 +62,17 @@ function App() {
 
       {/* <Props value={'Props value'}/> */}
 
-      <Routes>
+      {/* <Routes>
         <Route path='/' element={<Router11/>} />
+      </Routes> */}
+
+      <Routes>
+        <Route path='/UseParams/:id' element={<UseParams/>} />
       </Routes>
+      <Link to='/UseParams/123'>Use</Link> <br/>
+      <Link to='/UseParams/456'>Use1</Link>
+
+      
       
     </div>
   );
