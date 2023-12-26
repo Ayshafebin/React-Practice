@@ -14,17 +14,17 @@ const Fetch = () => {
 
     <div>
        <table>
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Pincode</th>
-            <th>Block</th>
-            <th>Country</th>
-            <th>State</th>
-          </tr>
-        </thead>
+        
+        <tr>
+        <th>Name</th>
+        <th>Pincode</th>
+        <th>Block</th>
+        <th>Country</th>
+        <th>State</th>
+        </tr>
+        
         <tbody>
-          {posts.map((post, index) => (
+          {posts.map((post,index) =>(
             <tr key={index}>
               <td>{post.Name}</td>
               <td>{post.Pincode}</td>
@@ -34,7 +34,7 @@ const Fetch = () => {
             </tr>
           ))}
         </tbody>
-      </table>
+       </table>
     </div>
 
   )

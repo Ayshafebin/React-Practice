@@ -5,6 +5,7 @@ const Input = () => {
   const [store,setStore] = useState('');
 
   const handlestore = (e) => {
+    // e.preventDefault()
     setStore(e.target.value);
     console.log(store);
   }
