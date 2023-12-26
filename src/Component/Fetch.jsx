@@ -13,17 +13,28 @@ const Fetch = () => {
   return (
 
     <div>
-      {posts.map((post) =>
-      <>
-      <h1>{post.Name}</h1>
-      <h3>{post.Pincode}</h3>
-      <h3>{post.Block}</h3>
-      <h3>{post.Country}</h3>
-
-      <h3>{post.State}</h3>
-
-      </>
-       )}
+       <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Pincode</th>
+            <th>Block</th>
+            <th>Country</th>
+            <th>State</th>
+          </tr>
+        </thead>
+        <tbody>
+          {posts.map((post, index) => (
+            <tr key={index}>
+              <td>{post.Name}</td>
+              <td>{post.Pincode}</td>
+              <td>{post.Block}</td>
+              <td>{post.Country}</td>
+              <td>{post.State}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
 
   )
