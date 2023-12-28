@@ -14,23 +14,21 @@ const Fetch = () => {
 
     <div>
        <table>
-        
         <tr>
-        <th>Name</th>
-        <th>Pincode</th>
-        <th>Block</th>
-        <th>Country</th>
-        <th>State</th>
+          <th>Name</th>
+          <th>District</th>
+          <th>Division</th>
+          <th>Block</th>
+          <th>Pincode</th>
         </tr>
-        
         <tbody>
-          {posts.map((post,index) =>(
-            <tr key={index}>
+          {posts.map((post,intex) => (
+            <tr key={intex}>
               <td>{post.Name}</td>
-              <td>{post.Pincode}</td>
+              <td>{post.District}</td>
+              <td>{post.Division}</td>
               <td>{post.Block}</td>
-              <td>{post.Country}</td>
-              <td>{post.State}</td>
+              <td>{post.Pincode}</td>
             </tr>
           ))}
         </tbody>
