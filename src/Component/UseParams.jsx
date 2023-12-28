@@ -7,8 +7,8 @@ const UseParams = () => {
 
   return (
     <div>
-        <h3>UseParams</h3>
-        <h3>Use {id}</h3>
+        <h3>UseParams{id}</h3>
+        {/* <h3>Use {id}</h3> */}
     </div>
   )
 }
