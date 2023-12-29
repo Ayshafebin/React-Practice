@@ -12,11 +12,11 @@ import './App.css';
 // import UseEffect from './UseEffect/UseEffect';
 // import Counter from './Counter/Counter';
 // import FetchAPI from './Fetch/FetchAPI';
-import UseReducer from './Reducer/UseReducer';
+// import UseReducer from './Reducer/UseReducer';
 // import Context from './Context/Context';
 // import MyContext from './Context/Context';
 
-// import Props from './Component/Props';
+import Props from './Component/Props';
 // import Counter from './Counter/Counter';
 // import UseReducer from './Reducer/UseReducer';
 
@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App">
 
-      {/* <Props value={'Props'}/> */}
+      <Props value={'Props'}/>
 
       {/* <MyContext.Provider value={'Context'}>
         <Context/>   
@@ -33,7 +33,7 @@ function App() {
 
       {/* <Counter/> */}
 
-      <UseReducer/>
+      {/* <UseReducer/> */}
 
 
       {/* <MyContext.Provider value={'Context'}>
