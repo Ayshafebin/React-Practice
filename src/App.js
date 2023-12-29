@@ -6,13 +6,13 @@ import './App.css';
 // import Props from './Component/Props';
 // import Context11, { MyContext } from './Component/Context11';
 // import Counter11 from './Component/Counter11';
-import Fetch from './Component/Fetch';
+// import Fetch from './Component/Fetch';
 // import Input from './Component/Input';
 // import Reducer11 from './Component/Reducer11';
 // import UseEffect from './UseEffect/UseEffect';
 // import Counter from './Counter/Counter';
 // import FetchAPI from './Fetch/FetchAPI';
-// import UseReducer from './Reducer/UseReducer';
+import UseReducer from './Reducer/UseReducer';
 // import Context from './Context/Context';
 // import MyContext from './Context/Context';
 
@@ -33,7 +33,7 @@ function App() {
 
       {/* <Counter/> */}
 
-      {/* <UseReducer/> */}
+      <UseReducer/>
 
 
       {/* <MyContext.Provider value={'Context'}>
@@ -48,7 +48,7 @@ function App() {
 
       {/* <UseEffect/> */}
 
-      <Fetch/>
+      {/* <Fetch/> */}
 
       {/* <Input/> */}
 
